@@ -1,13 +1,13 @@
 import React from "react"
 
 import SEO from "../layouts/SEO"
-import Table from "../components/Table"
+import TableBlock from "../components/TableBlock"
 
 const IndexPage = () => (
   <>
     <SEO title="MCloud." />
 
-    <Table
+    <TableBlock
       headerText="我的檔案"
     />
   </>

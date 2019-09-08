@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import { Container, HeaderWrapper, Header } from "./index.css"
 
-const Table = ({
+const TableBlock = ({
   className, 
   headerText,
 }) => {
@@ -19,9 +19,9 @@ const Table = ({
   )
 }
 
-Table.propTypes = {
+TableBlock.propTypes = {
   className: PropTypes.string,
   headerText: PropTypes.string
 }
 
-export default Table
+export default TableBlock
