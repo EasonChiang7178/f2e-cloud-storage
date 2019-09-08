@@ -3,7 +3,7 @@ import SEO from "../layouts/SEO"
 
 const IndexPage = () => (
   <>
-    <SEO title="Cloud Storage" />
+    <SEO title="MCloud." />
     <div>Hello, world!</div>
   </>
 )
