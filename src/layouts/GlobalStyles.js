@@ -3,7 +3,7 @@ import { Normalize } from "styled-normalize";
 import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,600&display=swap');
   body {
     font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, "Helvetica", 'Segoe UI', 'Open Sans', sans-serif;
     -webkit-tap-highlight-color: rgba(0,0,0,0);

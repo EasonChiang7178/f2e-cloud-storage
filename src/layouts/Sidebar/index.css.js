@@ -29,4 +29,6 @@ export const UploadButton = styled(UploadButtonRaw)`
 
 export const Navigation = styled(NavigationRaw)``
 
-export const UserProfile = styled(UserProfileRaw)``
+export const UserProfile = styled(UserProfileRaw)`
+  margin-top: auto;
+`
