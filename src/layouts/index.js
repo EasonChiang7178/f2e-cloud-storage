@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
 import GlobalStyles from "./GlobalStyles";
 
 import Content from "./Content";
-import Searchbar from "./Searchbar";
-import { PageContainer, Sidebar, ContentContainer } from "./index.css";
+import { PageContainer, Sidebar, ContentContainer, Searchbar } from "./index.css";
 
 const Layout = ({ children }) => (
   <>

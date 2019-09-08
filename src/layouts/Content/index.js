@@ -1,12 +1,18 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const ContentWrapper = ({ children }) => {
-  return <div>{children}</div>
+import { Container } from "./index.css"
+
+const Content = ({ children }) => {
+  return (
+    <Container>
+      {children}
+    </Container>
+  )
 }
 
-ContentWrapper.propTypes = {
+Content.propTypes = {
   children: PropTypes.node.isRequired
 }
 
-export default ContentWrapper
+export default Content
