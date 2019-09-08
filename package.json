@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "cloud-storage",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "藍白色系搭配的扁平風格設計；並且有整合搜尋和排序功能。 | Designed by Letitia73",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "EasonChiang7178 <ishiu.chiang@gmail.com>",
   "dependencies": {
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
@@ -30,14 +30,13 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/easonchiang7178/f2e-cloud-storage"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/easonchiang7178/f2e-cloud-storage/issues"
   }
 }

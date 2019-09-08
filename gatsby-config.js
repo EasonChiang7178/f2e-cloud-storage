@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/f2e-cloud-storage",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Cloud Storage`,
+    description: `藍白色系搭配的扁平風格設計；並且有整合搜尋和排序功能。 | Designed by Letitia73`,
+    author: `@EasonChiang7178`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `cloud-storage`,
+        short_name: `cloud-storage`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#4CB5F5`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/cloud-storage-icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
