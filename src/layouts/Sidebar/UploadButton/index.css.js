@@ -21,6 +21,7 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   color: ${COLOR.BLUE};
+  font-size: 18px;
   font-weight: 500;
   line-height: 26px;
   box-shadow: 0px 0px 6px #00000029;
