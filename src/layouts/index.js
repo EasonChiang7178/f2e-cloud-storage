@@ -3,10 +3,25 @@ import PropTypes from "prop-types";
 
 import GlobalStyles from "./GlobalStyles";
 
+import Content from "./Content";
+import Searchbar from "./Searchbar";
+import { PageContainer, Sidebar, ContentContainer } from "./index.css";
+
 const Layout = ({ children }) => (
   <>
     <GlobalStyles />
-    {children}
+
+    <PageContainer>
+      <Sidebar />
+
+      <ContentContainer>
+        <Searchbar />
+
+        <Content>
+          {children}
+        </Content>
+      </ContentContainer>
+    </PageContainer>
   </>
 );
 
