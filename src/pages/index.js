@@ -1,10 +1,15 @@
 import React from "react"
+
 import SEO from "../layouts/SEO"
+import Table from "../components/Table"
 
 const IndexPage = () => (
   <>
     <SEO title="MCloud." />
-    <div>Hello, world!</div>
+
+    <Table
+      headerText="我的檔案"
+    />
   </>
 )
 
