@@ -7,7 +7,8 @@ export const Container = styled.div`
 `
 
 export const HeaderWrapper = styled.div`
-  margin-bottom: 23px;
+  margin-bottom: 3px;
+  padding-left: 20px;
   height: 40px;
   display: flex;
   align-items: center;
