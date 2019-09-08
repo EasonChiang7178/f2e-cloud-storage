@@ -23,7 +23,9 @@ export const Logo = styled(LogoRaw)`
   margin-bottom: 42px;
 `
 
-export const UploadButton = styled(UploadButtonRaw)``
+export const UploadButton = styled(UploadButtonRaw)`
+  margin-bottom: 27px;
+`
 
 export const Navigation = styled(NavigationRaw)``
 
